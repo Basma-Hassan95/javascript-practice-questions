@@ -301,3 +301,98 @@
 // console.log(sum);
 
 
+// Basic Array Practice Questions 
+
+// Create an array named fruits with values: "apple", "banana", and "mango".
+
+// let arr = ["apple","banana","mango"]
+// console.log(arr);
+
+
+// Print the first and last element of the fruits array.
+
+// let arr = ["apple","banana","mango"]
+// console.log(arr[0],arr[2]);
+
+
+// Replace the second element ("banana") with "orange"
+
+// let arr = ["apple","banana","mango"]
+// arr[1] = "orange"
+// console.log(arr);
+
+
+// Create an empty array named colors, then add "red" and "blue" using index positions.
+
+// let colors = []
+// colors[0] ="red" 
+// colors[1] = "blue"
+// console.log(colors);
+
+// Check the type of fruits array using typeof — what do you get?
+
+// let fruits = ["mango","grapes","pineapple"]
+// console.log(typeof fruits);
+
+// Create an array cities = ["Lahore", "Karachi", "Islamabad", "Quetta"] and print its length.
+
+// let cities = ["Lahore", "Karachi", "Islamabad", "Quetta"] 
+// console.log(cities.length);
+
+// Add one more city to the cities array and then print the updated length.
+
+// let cities = ["Lahore", "Karachi", "Islamabad", "Quetta", "Punjab"]
+// console.log(cities.length);
+ 
+// How can you find the last element of an array using length?
+// let cities = ["Lahore", "Karachi", "Islamabad", "Quetta", "Punjab"]
+
+// console.log(cities[cities.length - 1]);
+
+// Create an array numbers = [1, 2, 3] and use push() to add 4 and 5.
+
+// let arrNumbers = [1,2,3]
+// arrNumbers.push(4,5)
+// console.log(arrNumbers);
+
+
+// Use pop() to remove the last element from numbers and print the updated array.
+
+
+//  let arrNumbers = [1,2,3,4]
+//  arrNumbers.pop()
+//  console.log(arrNumbers);
+ 
+
+// Use pop() twice more — what does the array become?
+
+// let arrNumbers = [1,2,3,4]
+// arrNumbers.pop();
+// arrNumbers.pop();
+// console.log(arrNumbers);
+
+
+// Create an array names = ["Ali", "Sara", "Hassan"], then use shift() to remove the first element.
+
+// let name = ["Ali","Sara","Hassan"]
+// name.shift();
+// console.log(name);
+
+
+// Use unshift("Ayesha") to add an element to the beginning of names.
+
+//  let name = ["Ali","Sara","Hassan"]
+//  name.unshift("Ayesha")
+// name.unshift("Zain")
+// console.log(name);
+
+
+
+
+// // How many total elements are now in names?
+//  console.log(name.length);
+
+
+ 
+
+
